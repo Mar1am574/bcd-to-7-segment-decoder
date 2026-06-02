@@ -1,6 +1,6 @@
-##BCD to 7-Segment Display Decoder Circuit
+BCD to 7-Segment Display Decoder Circuit
 
-##📌 Project Overview
+📌 Project Overview
 
 This project demonstrates the design and hardware implementation of a BCD (Binary-Coded Decimal) to 7-Segment Display Decoder using the 7447 IC.
 
@@ -8,7 +8,7 @@ The circuit converts a 4-bit binary input into the corresponding decimal digit (
 
 ---
 
-##🎯 Objective
+🎯 Objective
 
 - Build a functional BCD to 7-segment decoder circuit
 - Understand how binary inputs are converted into decimal outputs
@@ -17,7 +17,7 @@ The circuit converts a 4-bit binary input into the corresponding decimal digit (
 
 ---
 
-##🛠️ Components Used
+🛠️ Components Used
 
 - 4-Pin DIP Switch
 - 7447 Decoder IC
@@ -28,32 +28,34 @@ The circuit converts a 4-bit binary input into the corresponding decimal digit (
 
 ---
 
-##⚙️ How the Circuit Works
+⚙️ How the Circuit Works
 
-- A 4-bit binary number is entered using the DIP switch.
-- The 7447 IC receives the binary-coded decimal (BCD) input.
-- The decoder converts the input into signals that control the display segments.
-- The common anode 7-segment display lights the required segments to show the corresponding decimal digit.
-
----
-
-##🖥️ Simulation
-
-A circuit simulation was created to verify the logic connections and expected output before building the hardware prototype.
-
-The simulation helped ensure correct mapping between the DIP switch inputs, the 7447 decoder, and the 7-segment display outputs.
+- A 4-bit binary number is entered using the DIP switch
+- The 7447 IC receives the Binary-Coded Decimal (BCD) input
+- The decoder converts the input into signals that control the display segments
+- The common anode 7-segment display lights the required segments to show the corresponding decimal digit
 
 ---
 
-##🔌 Hardware Implementation
+🖥️ Simulation
 
-The circuit was assembled on a breadboard using the 7447 decoder IC, a 4-pin DIP switch, resistors, and a common anode 7-segment display.
+A circuit simulation was created to verify the logic connections and expected output before hardware implementation.
 
-Power and ground connections were distributed through the breadboard rails, while the DIP switch provided the BCD inputs that were decoded and displayed on the 7-segment display.
+It helped ensure correct mapping between the DIP switch inputs, the 7447 decoder, and the 7-segment display outputs.
 
 ---
 
-## Key Learnings
+🔌 Hardware Implementation
+
+- The circuit was assembled on a breadboard
+- The DIP switch was used to provide the BCD input values
+- The 7447 decoder IC processed the input signals
+- The 7-segment display showed the corresponding decimal digit
+- Power and ground connections were distributed through the breadboard rails
+
+---
+
+ Key Learnings
 
 - Understanding Binary-Coded Decimal (BCD)
 - Working with the 7447 Decoder IC
@@ -64,20 +66,20 @@ Power and ground connections were distributed through the breadboard rails, whil
 
 ---
 
-##🧰 Tools Used
+🧰 Tools Used
 
 - Digital Circuit Simulation Software
 - Breadboard Prototyping
-- Electronic Components (ICs, Resistors, Switches, Displays)
+- Electronic Components (ICs, Resistors, Switches, and Displays)
 
 ---
 
-##📦 Project Files
+📦 Project Files
 
 - Circuit simulation image
-- Components and cost report
+- Project report
 - Hardware demonstration video
 
 ---
 
-##⭐ Built as part of a Digital Logic academic project.
+⭐ Built as part of a Digital Logic academic project.
